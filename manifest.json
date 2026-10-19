@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "Código da Areia – Modo Competição",
+  "short_name": "Competição",
+  "description": "Código da Areia com Modo Competição: 240 exercícios, jogos competitivos e placar para o vôlei de praia.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0E4B75",
+  "background_color": "#0E4B75",
+  "categories": ["sports", "education"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
