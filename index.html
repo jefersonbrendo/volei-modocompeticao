@@ -160,6 +160,18 @@ input { font: inherit; }
 .nav-item.active { color: var(--cta); }
 .nav-item svg { width: 22px; height: 22px; }
 
+/* ===== DESTAQUE DA ABA COMPETIÇÃO ===== */
+.nav-item[data-route="competicao"] { color: var(--coral); font-weight: 800; }
+.nav-item[data-route="competicao"] svg {
+  width: 40px; height: 40px; padding: 9px; margin-top: -16px; border-radius: 14px; color: #fff;
+  background: linear-gradient(135deg, var(--coral), var(--laranja));
+  border: 3px solid var(--bg-nav);
+  box-shadow: 0 6px 14px rgba(255,74,63,.38);
+  transition: transform .15s, box-shadow .15s;
+}
+.nav-item[data-route="competicao"]:active svg { transform: scale(.94); }
+.nav-item[data-route="competicao"].active svg { transform: translateY(-2px); box-shadow: 0 0 0 3px rgba(255,74,63,.28), 0 8px 18px rgba(255,74,63,.45); }
+
 /* ===== COMPETIÇÃO STYLES ===== */
 .comp-subnav { display:flex; gap:0; border-bottom:1px solid var(--border); background:var(--bg); position:sticky; top:0; z-index:10; }
 .comp-subnav-btn { flex:1; padding:10px 0; font-size:13px; font-weight:600; color:var(--text-muted); border-bottom:2px solid transparent; transition:all .15s; background:none; }
